@@ -1273,5 +1273,8 @@
   "edt_conf_mqtt_disableApiAccess_title": "Inaktivera API-åtkomst",
   "edt_conf_mqtt_disableApiAccess_expl": "Blockera exekvering av API-kommandon skickade via MQTT.",
   "wiz_zigbee2mqtt_title": "Zigbee2mqtt-ljusguiden",
-  "wiz_mqtt_error": "Det gick inte att hitta enheter anslutna till MQTT-servern. Kontrollera HyperHDR-loggar och MQTT-klientkonfiguration i nätverksinställningar. HyperHDR måste ha en giltig och aktiv anslutning till MQTT-mäklare."
+  "wiz_mqtt_error": "Det gick inte att hitta enheter anslutna till MQTT-servern. Kontrollera HyperHDR-loggar och MQTT-klientkonfiguration i nätverksinställningar. HyperHDR måste ha en giltig och aktiv anslutning till MQTT-mäklare.",
+  "conf_grabber_amlogic_intro": "Amlogic skärmgrepp",
+  "edt_conf_stream_guard_title": "Strömvakt",
+  "edt_conf_stream_guard_expl": "Aggressivt försök igen efter en kort fördröjning när en stream tar slut"
 }
