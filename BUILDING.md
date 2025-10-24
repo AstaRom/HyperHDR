@@ -6,11 +6,11 @@
 ## Available CMake HyperHDR configuration options:
 Use -D prefix when configuring the build.
 
-* LED DEVICES  
+* LED DEVICES
   * ENABLE_SPIDEV = ON | OFF, enables SPI LED devices on supported systems
   * ENABLE_SPI_FTDI = ON | OFF, enables SPI libFTDI/FTDI controller on supported systems
   * ENABLE_WS281XPWM = ON | OFF, enables WS281x LED library on supported systems
-  
+
 * SOFTWARE GRABBERS
   * ENABLE_DX = ON | OFF, enables the DirectX11 software grabber (Windows)
   * ENABLE_FRAMEBUFFER = ON | OFF, enables the Framebuffer software grabber (Linux)
@@ -66,7 +66,7 @@ sudo apt-get update
 
 sudo apt-get install build-essential cmake git libayatana-appindicator3-dev libasound2-dev wget unzip pkg-config
 libegl-dev libflatbuffers-dev flatbuffers-compiler libftdi1-dev libgl-dev libglvnd-dev liblzma-dev libgtk-3-dev
-libpipewire-0.3-dev libqt5serialport5-dev libssl-dev libx11-dev libsystemd-dev libturbojpeg0-dev libusb-1.0-0-dev 
+libpipewire-0.3-dev libqt5serialport5-dev libssl-dev libx11-dev libsystemd-dev libturbojpeg0-dev libusb-1.0-0-dev
 libzstd-dev python3 pkg-config qtbase5-dev
 ```
 
@@ -81,7 +81,7 @@ sudo apt-get install libcec-dev libp8-platform-dev libudev-dev
 sudo dnf -y group install "C Development Tools and Libraries" "Development Tools"
 
 sudo dnf -y install cmake chrpath git alsa-lib-devel flatbuffers-devel flatbuffers-compiler fedora-packager
-mesa-libEGL-devel libftdi-c++-devel mesa-libGL-devel gtk3-devel libglvnd-devel libayatana-appindicator-gtk3-devel 
+mesa-libEGL-devel libftdi-c++-devel mesa-libGL-devel gtk3-devel libglvnd-devel libayatana-appindicator-gtk3-devel
 pipewire-devel qt5-qtserialport-devel qt5-qtbase-devel openssl-devel turbojpeg-devel libusb1-devel libX11-devel
 libzstd-devel pkg-config wget xz-devel systemd-devel unzip
 ```
@@ -115,7 +115,7 @@ We assume a 64bit Windows 10. Install the following;
 Hint: after you execute the configuration command in the build folder (for example ```cmake -DCMAKE_BUILD_TYPE=Release ..```) you should receive *.sln solution project file that can be opened in Visual Studio. Select `hyperhdr` project as default for the solution to run it after compilation.
 
 ### macOS
-First install [brew](https://brew.sh/) manager.  
+First install [brew](https://brew.sh/) manager.
 Next: `brew install qt@6 cmake xz pkg-config`
 
 ## Compiling and installing HyperHDR
@@ -151,7 +151,7 @@ mkdir build
 cd build
 # You might need to setup MSVC env first
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
-# Maintainers: to build the HyperHDR installer, install NSIS and define environment variable:  
+# Maintainers: to build the HyperHDR installer, install NSIS and define environment variable:
 # set VCINSTALLDIR="C:\Program Files\Microsoft Visual Studio\2022\Community\VC"
 cmake -DPLATFORM=windows -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Release ..
 cmake --build . --config Release -- -maxcpucount
@@ -160,9 +160,9 @@ cmake --build . --config Release -- -maxcpucount
 bin/Release/hyperhdr -d
 ```
 
-### LibreELEC 
+### LibreELEC
 
-You can find the add-on sources here on branches of my LibreELEC fork: https://github.com/awawa-dev/LibreELEC.tv/ For example `libreelec-11.0-hyperhdr` branch. Adjust HyperHDR package properties in `packages/addons/service/hyperhdr/package.mk` Follow LibreELEC's manual on how to build the image. For example: 
+You can find the add-on sources here on branches of my LibreELEC fork: https://github.com/awawa-dev/LibreELEC.tv/ For example `libreelec-11.0-hyperhdr` branch. Adjust HyperHDR package properties in `packages/addons/service/hyperhdr/package.mk` Follow LibreELEC's manual on how to build the image. For example:
 
 LibreELEC 11/RPi:
 ```
@@ -189,7 +189,7 @@ PROJECT=Generic DEVICE=Generic ARCH=x86_64 ./scripts/create_addon hyperhdr
 All you need is Docker and bash, which is available on every supported system, even on Windows where you only need to enable "Windows Subsystem for Linux". You don't need to install any packages to build HyperHDR because the script uses Docker images provided by https://github.com/awawa-dev/HyperHDR.dev.docker which contain everything you need to build the installer. Thanks to this, you can compile eg. the aarch64 HyperHDR installer for Raspberry Pi even on a PC. Run the `build.sh` script in the main directory.
 
 ```console
-pi@ubuntu:~/hyperhdr$ ./build.sh 
+pi@ubuntu:~/hyperhdr$ ./build.sh
 
 Required environmental options:
 PLATFORM - one of the supported targets: osx|windows|linux|rpi
@@ -202,7 +202,7 @@ DISTRO_NAME  | DISTRO_VERSION | ARCHITECTURE - these are only for linux targets
    debian    | bookworm       | amd64
    debian    | trixie         | armhf
    debian    | trixie         | arm64
-   debian    | trixie         | amd64   
+   debian    | trixie         | amd64
    ubuntu    | jammy          | amd64
    ubuntu    | noble          | amd64
    ubuntu    | questing       | amd64
