@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "controllato dal driver del LED",
   "controlled_by_smoothing_or_led_driver": "controllato da Smoothing o driver",
   "edt_conf_hardware_title": "Abilita accelerazione hardware",
-  "edt_conf_hardware_expl": "Abilita l'accelerazione hardware, ad esempio: pixel e vertex shader su Windows.",
+  "edt_conf_hardware_expl": "Abilita l'accelerazione hardware, ad esempio: pixel e vertex shader su Windows o EGL/DMA per Pipewire su Linux.",
   "edt_conf_monitor_nits_title": "Correzione luminosità HDR",
   "edt_conf_monitor_nits_expl": "Luminosità target SDR utilizzata per la conversione da HDR a SDR. Se 0, disabilita la conversione del colore hardware mantenendo il ridimensionamento accelerato.",
   "edt_append_nits": "nits",

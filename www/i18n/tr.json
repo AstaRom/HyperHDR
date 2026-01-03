@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "LED sürücüsü tarafından kontrol edilir",
   "controlled_by_smoothing_or_led_driver": "Düzeltme veya sürücü tarafından kontrol edilir",
   "edt_conf_hardware_title": "Donanım hızlandırmayı etkinleştir",
-  "edt_conf_hardware_expl": "Donanım hızlandırmayı etkinleştirin, örneğin: Windows'ta piksel ve köşe gölgelendiricileri.",
+  "edt_conf_hardware_expl": "Donanım hızlandırmayı etkinleştirin, örneğin: Windows'ta piksel ve köşe gölgelendiricileri veya Linux'ta Pipewire için EGL/DMA.",
   "edt_conf_monitor_nits_title": "HDR parlaklık düzeltmesi",
   "edt_conf_monitor_nits_expl": "HDR'den SDR'ye dönüştürme için kullanılan SDR hedef parlaklığı. 0 ise, hızlandırılmış ölçeklendirmeyi korurken donanım renk dönüşümünü devre dışı bırakır.",
   "edt_append_nits": "nits",

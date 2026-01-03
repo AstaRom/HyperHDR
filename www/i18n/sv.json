@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "styrs av LED-drivrutinen",
   "controlled_by_smoothing_or_led_driver": "styrs av Smoothing eller förare",
   "edt_conf_hardware_title": "Aktivera hårdvaruacceleration",
-  "edt_conf_hardware_expl": "Aktivera hårdvaruacceleration, till exempel: pixel och vertex shaders på Windows.",
+  "edt_conf_hardware_expl": "Aktivera hårdvaruacceleration, till exempel: pixel och vertex shaders på Windows eller EGL/DMA för Pipewire på Linux.",
   "edt_conf_monitor_nits_title": "Korrigering av HDR-ljusstyrka",
   "edt_conf_monitor_nits_expl": "SDR-målljusstyrka som används för konvertering av HDR till SDR. Om 0, inaktiverar det hårdvarufärgkonvertering samtidigt som accelererad skalning bibehålls.",
   "edt_append_nits": "nits",

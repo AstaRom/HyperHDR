@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "由LED驱动器控制",
   "controlled_by_smoothing_or_led_driver": "由平滑或驱动程序控制",
   "edt_conf_hardware_title": "启用硬件加速",
-  "edt_conf_hardware_expl": "启用硬件加速，例如：Windows 上的像素和顶点着色器。",
+  "edt_conf_hardware_expl": "启用硬件加速，例如：Windows 上的像素和顶点着色器 或者在 Linux 上为 Pipewire 使用 EGL/DMA。",
   "edt_conf_monitor_nits_title": "HDR亮度校正",
   "edt_conf_monitor_nits_expl": "用于 HDR 到 SDR 转换的 SDR 目标亮度。如果为 0，则禁用硬件颜色转换，同时保持加速缩放。",
   "edt_append_nits": "nits",

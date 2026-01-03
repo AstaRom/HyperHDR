@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "controlado por el conductor del LED",
   "controlled_by_smoothing_or_led_driver": "controlado por suavizado o controlador",
   "edt_conf_hardware_title": "Habilitar la aceleración de hardware",
-  "edt_conf_hardware_expl": "Habilite la aceleración de hardware, por ejemplo: sombreadores de píxeles y vértices en Windows.",
+  "edt_conf_hardware_expl": "Habilite la aceleración de hardware, por ejemplo: sombreadores de píxeles y vértices en Windows o EGL/DMA para Pipewire en Linux.",
   "edt_conf_monitor_nits_title": "Corrección de brillo HDR",
   "edt_conf_monitor_nits_expl": "Brillo objetivo SDR utilizado para la conversión HDR a SDR. Si es 0, deshabilita la conversión de color del hardware mientras mantiene el escalado acelerado.",
   "edt_append_nits": "nits",

@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "bestuurd door LED-driver",
   "controlled_by_smoothing_or_led_driver": "gecontroleerd door Smoothing of driver",
   "edt_conf_hardware_title": "Schakel hardwareversnelling in",
-  "edt_conf_hardware_expl": "Schakel hardwareversnelling in, bijvoorbeeld: pixel- en vertex-shaders op Windows.",
+  "edt_conf_hardware_expl": "Schakel hardwareversnelling in, bijvoorbeeld: pixel- en vertex-shaders op Windows of EGL/DMA voor Pipewire op Linux.",
   "edt_conf_monitor_nits_title": "HDR-helderheidscorrectie",
   "edt_conf_monitor_nits_expl": "SDR-doelhelderheid gebruikt voor conversie van HDR naar SDR. Indien 0, wordt de hardwarekleurconversie uitgeschakeld terwijl de versnelde schaling behouden blijft.",
   "edt_append_nits": "nits",

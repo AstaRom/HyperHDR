@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "được điều khiển bởi trình điều khiển LED",
   "controlled_by_smoothing_or_led_driver": "được điều khiển bằng Smoothing hoặc driver",
   "edt_conf_hardware_title": "Kích hoạt tính năng tăng tốc phần cứng",
-  "edt_conf_hardware_expl": "Cho phép tăng tốc phần cứng, ví dụ: trình đổ bóng pixel và đỉnh trên Windows.",
+  "edt_conf_hardware_expl": "Cho phép tăng tốc phần cứng, ví dụ: trình đổ bóng pixel và đỉnh trên Windows hoặc EGL/DMA cho Pipewire trên Linux.",
   "edt_conf_monitor_nits_title": "Chỉnh sửa độ sáng HDR",
   "edt_conf_monitor_nits_expl": "Độ sáng mục tiêu SDR được sử dụng để chuyển đổi HDR sang SDR. Nếu bằng 0, nó sẽ vô hiệu hóa chuyển đổi màu phần cứng trong khi vẫn duy trì tỷ lệ tăng tốc.",
   "edt_append_nits": "nits",

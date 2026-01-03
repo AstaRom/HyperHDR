@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "commandé par le conducteur de LED",
   "controlled_by_smoothing_or_led_driver": "contrôlé par lissage ou conducteur",
   "edt_conf_hardware_title": "Activer l'accélération matérielle",
-  "edt_conf_hardware_expl": "Activez l'accélération matérielle, par exemple: pixel et vertex shaders sous Windows.",
+  "edt_conf_hardware_expl": "Activez l'accélération matérielle, par exemple: pixel et vertex shaders sous Windows ou EGL/DMA pour Pipewire sous Linux.",
   "edt_conf_monitor_nits_title": "Correction de la luminosité HDR",
   "edt_conf_monitor_nits_expl": "Luminosité cible SDR utilisée pour la conversion HDR en SDR. Si 0, il désactive la conversion matérielle des couleurs tout en maintenant une mise à l'échelle accélérée.",
   "edt_append_nits": "nits",

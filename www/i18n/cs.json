@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "ovládání pomocí LED ovladače",
   "controlled_by_smoothing_or_led_driver": "ovládáno vyhlazováním nebo ovladačem",
   "edt_conf_hardware_title": "Povolit hardwarovou akceleraci",
-  "edt_conf_hardware_expl": "Povolte hardwarovou akceleraci, například: shadery pixelů a vrcholů ve Windows.",
+  "edt_conf_hardware_expl": "Povolte hardwarovou akceleraci, například: shadery pixelů a vrcholů ve Windows nebo EGL/DMA pro Pipewire v Linuxu.",
   "edt_conf_monitor_nits_title": "Korekce jasu HDR",
   "edt_conf_monitor_nits_expl": "SDR cílový jas použitý pro převod HDR na SDR. Pokud 0, zakáže konverzi barev hardwaru při zachování zrychleného škálování.",
   "edt_append_nits": "nits",

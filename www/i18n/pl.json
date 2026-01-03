@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "kontrolowane przez sterownik LED",
   "controlled_by_smoothing_or_led_driver": "kontrolowane przez Smoothing lub sterownik",
   "edt_conf_hardware_title": "Włącz akcelerację sprzętową",
-  "edt_conf_hardware_expl": "Włącz akcelerację sprzętową, na przykład: moduły cieniujące pikseli i wierzchołków w systemie Windows.",
+  "edt_conf_hardware_expl": "Włącz akcelerację sprzętową, na przykład: moduły cieniujące pikseli i wierzchołków w systemie Windows lub EGL/DMA dla Pipewire w systemie Linux.",
   "edt_conf_monitor_nits_title": "Korekta jasności HDR",
   "edt_conf_monitor_nits_expl": "Docelowa jasność SDR używana do konwersji HDR na SDR. Jeśli wynosi 0, wyłącza sprzętową konwersję kolorów przy jednoczesnym zachowaniu przyspieszonego skalowania.",
   "edt_append_nits": "nits",

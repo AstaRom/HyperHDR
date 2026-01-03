@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "управляется светодиодным драйвером",
   "controlled_by_smoothing_or_led_driver": "контролируется Сглаживанием или драйвером",
   "edt_conf_hardware_title": "Включить аппаратное ускорение",
-  "edt_conf_hardware_expl": "Включить аппаратное ускорение, например: пиксельные и вершинные шейдеры в Windows.",
+  "edt_conf_hardware_expl": "Включить аппаратное ускорение, например: пиксельные и вершинные шейдеры в Windows или EGL/DMA для Pipewire в Linux.",
   "edt_conf_monitor_nits_title": "Коррекция яркости HDR",
   "edt_conf_monitor_nits_expl": "Целевая яркость SDR, используемая для преобразования HDR в SDR. Если значение равно 0, это отключает аппаратное преобразование цвета при сохранении ускоренного масштабирования.",
   "edt_append_nits": "nits",

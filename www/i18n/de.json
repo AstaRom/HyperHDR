@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "gesteuert durch LED-Treiber",
   "controlled_by_smoothing_or_led_driver": "gesteuert durch Glättung oder Treiber",
   "edt_conf_hardware_title": "Hardwarebeschleunigung aktivieren",
-  "edt_conf_hardware_expl": "Aktivieren Sie die Hardwarebeschleunigung, zum Beispiel: Pixel- und Vertex-Shader unter Windows.",
+  "edt_conf_hardware_expl": "Aktivieren Sie die Hardwarebeschleunigung, zum Beispiel: Pixel und Vertex-Shader unter Windows oder EGL/DMA für Pipewire unter Linux.",
   "edt_conf_monitor_nits_title": "HDR-Helligkeitskorrektur",
   "edt_conf_monitor_nits_expl": "SDR-Zielhelligkeit, die für die Konvertierung von HDR in SDR verwendet wird. Bei 0 wird die Hardware-Farbkonvertierung deaktiviert und gleichzeitig die beschleunigte Skalierung beibehalten.",
   "edt_append_nits": "nits",

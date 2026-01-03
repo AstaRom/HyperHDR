@@ -1218,7 +1218,7 @@
   "controlled_by_led_driver": "controlat de driver LED",
   "controlled_by_smoothing_or_led_driver": "controlat de Smoothing sau driver",
   "edt_conf_hardware_title": "Activați accelerarea hardware",
-  "edt_conf_hardware_expl": "Activați accelerarea hardware, de exemplu: pixeli și umbritori vertex pe Windows.",
+  "edt_conf_hardware_expl": "Activați accelerarea hardware, de exemplu: pixeli și umbritori vertex pe Windows sau EGL/DMA pentru Pipewire pe Linux.",
   "edt_conf_monitor_nits_title": "Corecția luminozității HDR",
   "edt_conf_monitor_nits_expl": "Luminozitatea țintă SDR utilizată pentru conversia HDR în SDR. Dacă este 0, dezactivează conversia hardware a culorilor, menținând în același timp scalarea accelerată.",
   "edt_append_nits": "nits",
